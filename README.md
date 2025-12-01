@@ -3,7 +3,7 @@
 An AI-powered YouTube thumbnail generator built with **Next.js 15**, **Vercel AI SDK**, and **Tailwind CSS**. Generate eye-catching thumbnails by simply describing your idea.
 
 ![Next.js](https://img.shields.io/badge/Next.js-15.5-black)
-![AI SDK](https://img.shields.io/badge/AI%20SDK-5.3-blue)
+![AI SDK](https://img.shields.io/badge/AI%20SDK-5.0-blue)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)
 
 ---
@@ -25,7 +25,7 @@ pnpm build
 
 ## 📁 Project Structure
 
-```mermaid
+```
 ├── app/
 │   ├── page.tsx              # Main entry point
 │   ├── layout.tsx            # Root layout
@@ -94,7 +94,7 @@ Handles AI image generation using the **Vercel AI SDK**.
 
 ## 🔄 Data Flow
 
-```marmaid
+```
 User Input → ThumbnailGenerator.handleSubmit()
                     ↓
             POST /api/image
